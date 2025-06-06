@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(197, 243, 234);
+}
+h1 {text-align:center;}
+
+.nav {
+    font-family: cursive;
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display:inline;
+    margin-right: 50px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 25px;
+    background-color: rgb(139, 209, 207);
+}
+.center {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+    width:50%;;
+}
+#snorlax {
+    font-size:30px;
+    font-family:fantasy;
+    color:rgb(245, 191, 228);
+}

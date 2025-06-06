@@ -1,0 +1,11 @@
+body {
+    background-color:rgb(255, 132, 0);
+    text-align: center;
+    border: solid rgb(182, 163, 203) 10px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family:cursive;
+    color:rgb(72, 59, 90);
+}

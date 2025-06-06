@@ -1,0 +1,82 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 10px solid rgb(169, 199, 169);
+    border-radius: 40px;
+    padding: 10px;
+    background-color: rgb(207, 231, 210);
+    position:sticky;
+    top:10px;
+}
+
+h1, h3 {
+    border: solid 8px rgb(160, 193, 163);
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(201, 228, 205);
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+h2 {
+    padding: 5px;
+    background-color:rgb(141, 177, 144);
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius:50px;
+    color:rgb(227, 248, 230);
+}
+
+body {
+    background-color:rgb(214, 237, 216);
+    text-align: center;
+}
+.nav {
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;}
+
+.nav li {
+     display:inline;
+    margin-right: 50px;}
+
+a:link, a:visited {background-color: rgb(227, 248, 230);
+    border-radius:20px;
+    padding:10px;
+    color:rgb(77, 114, 80);}
+
+a:hover, a:active {background-color: rgb(201, 225, 203);
+    border-radius:20px;
+    padding:10px;
+    color:rgb(92, 134, 104);}
+
+p {
+    border: dotted 8px rgb(160, 193, 163);
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(203, 230, 203);
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 20px;
+}
+
+.image {
+    border: solid 10px rgb(185, 208, 184);
+    border-radius: 50px;
+    width: 200px;
+}
+
+.move li {
+    margin-right:100px;
+}
+
+.button {
+    border-radius: 15px;
+    padding:5px;
+    border: solid 0px;
+    background-color: rgb(146, 180, 148);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}

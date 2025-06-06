@@ -1,0 +1,56 @@
+.container {width: 1000px;
+    margin: 0 auto;
+    border: 10px solid rgb(207, 140, 192);
+    border-radius: 40px;
+    padding: 10px;
+    background-color: rgb(238, 185, 218);
+    position:sticky;
+    top:10px;}
+
+.nav {
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;}
+
+.nav li {
+     display:inline;
+    margin-right: 50px;}
+
+body {background-color: rgb(250, 223, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px dotted rgb(207, 140, 192);
+    border-radius: 50px;}
+
+p {font-family:cursive;
+    font-size:20px;
+    border:5px dotted rgb(248, 207, 234);
+    background-color: rgb(253, 245, 250);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius:20px}
+
+.rounded {border-radius: 35px;
+    width:250px;}
+
+a:link, a:visited {background-color: rgb(248, 227, 243);
+    border-radius:20px;
+    padding:10px;
+    color:rgb(188, 115, 172);}
+
+a:hover, a:active {background-color: rgb(242, 203, 233);
+    border-radius:20px;
+    padding:10px;
+    color:rgb(180, 117, 167);}
+
+h3 {border: 5px solid rgb(228, 170, 201);
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: rgb(249, 225, 242);}
+
+.bulletpoint {list-style-position: inside;}

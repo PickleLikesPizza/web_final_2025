@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math | Javascript Demo - Derek</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1>MATH</h1>
+    <h2>by derek</h2>
+    <h3>now. let's find out how to do basic addition. what's 1+1?</h3>
+    <p>you should click this button...</p>
+    <button onclick="document.getElementById('math').innerHTML = 1+1">PRESS ME</button>
+    <h3 id="math"></h3>
+    <p>now let's try a harder one... what's (50^5)/(3.141592658*2.71828)?</p>
+    <button onclick="document.getElementById('math2').innerHTML = (50^5)/(3.141592658*2.71828)">PRESS ME</button>
+    <h3 id="math2">100? 2? nope! its...</h3>
+    <p>wanna see something cool? lets find the time.</p>
+    <button onclick="document.getElementById('time').innerHTML = Date()">PRESS ME</button>
+    <h3 id="time"></h3>
+    <p>now i'll show you a magic trick!</p>
+    <button onclick="magic()">PRESS ME HEHE</button>
+    <h3 id="magic"></h3>
+    <p>how can we use javascript to find YOUR PERSONAL INFORMATION MWAHAHA</p>
+    <button onclick="askName()">PRESS ME</button>
+    <p id="ask-name"></p>
+    <h3>now, how do we ask questions?</h3>
+    <button onclick="askQuestion()">PRESS ME</button>
+    <p id="question"></p>
+    <h2>i can also add images! :D</h2>
+    <button onclick="showImg()">PRESS ME</button>
+    <p></p>
+    <img id="cat" src="null" width="400px">
+
+    <script>
+        function showImg() {
+            var image = document.getElementById('cat');
+            image.src = 'https://i.pinimg.com/736x/f0/78/0b/f0780b669d1339874433028ad33961b0.jpg';
+        }
+        //alert("WARNING: \n extreme silliness!!!");
+        //alert("are you ready? >:)");
+        function magic() {
+            var p = document.getElementById('magic');
+            p.innerHTML= 'hehehehe this was a function! YOU JUST GOT FUNCTIONED HEHE!!!';
+            p.style.fontSize= '30px';
+            p.style.color= 'green';
+        }
+    </script>
+</body>
+</html>

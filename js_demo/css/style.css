@@ -1,0 +1,15 @@
+body {background-color:rgb(220, 248, 222);
+    text-align:center;
+    font-family:cursive;
+    color:rgb(125, 153, 128);}
+
+p {margin-left:300px;
+    margin-right:300px;
+    border: solid rgb(188, 225, 191) 10px;
+    padding: 15px;
+    color:rgb(76, 116, 79);
+    border-radius: 25px;
+    background-color:rgb(208, 240, 210);
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;}
